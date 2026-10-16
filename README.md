@@ -1,6 +1,6 @@
-# ☕ Jornada Java - Bootcamp Itaú com IA (DIO)
+# ☕ Dio-Java Exercises - Bootcamp DIO
 
-Repositório pessoal com anotações, resumos teóricos, projetos práticos e exercícios desenvolvidos durante o **Bootcamp Itaú - Java com Inteligência Artificial** na plataforma [DIO](https://dio.me).
+Repositório de exercícios práticos de fixação da sintaxe Java desenvolvidos durante o **Bootcamp Itaú - Java com Inteligência Artificial** na [DIO](https://dio.me).
 
 ---
 
@@ -9,29 +9,34 @@ Repositório pessoal com anotações, resumos teóricos, projetos práticos e ex
 > *"Dominar o básico é o que constrói código de alto nível no avançado."*
 
 Mesmo já tendo base em lógica de programação e contato prévio com Java, revisitar os fundamentos permite enxergar detalhes cruciais que muitas vezes passam despercebidos quando usamos apenas frameworks de alto nível:
-- Nuances de alocação de memória (Stack vs Heap) e limites de primitivos;
-- Comportamento de operadores (diferença entre `==` e `.equals()`, ordem de pós e pré-incremento);
-- Boas práticas de orientação a objetos desde o primeiro método;
-- Padronização de convenções e documentação com Javadoc.
+- Leitura e manipulação segura de dados de entrada com `Scanner`;
+- Cuidados com limpeza de buffer de teclado após leitura de tipos primitivos numéricos;
+- Operações aritméticas e funções utilitárias da classe `Math` (como `Math.abs()`);
+- Tratamento de tipos primitivos e operadores.
 
 ---
 
-## 📚 Módulos Concluídos
+## 📂 Exercícios de Fixação
 
-### 1. [Introdução ao Java e Seu Ambiente de Desenvolvimento](file:///Users/gabrielfelippebaptista/Downloads/BOOTCAMP/JAVA/Introdu%C3%A7%C3%A3o%20ao%20Java%20e%20Seu%20ambiente%20de%20Desenvolvimento/)
-- Arquitetura da JVM, JRE e JDK;
-- Instalação do OpenJDK 21 LTS e configuração de variáveis de ambiente (`JAVA_HOME`);
-- Primeiros programas com parâmetros de linha de comando (`args`) e `Scanner`;
-- Comparativo entre ferramentas de build: Apache Maven vs Gradle.
+Os códigos estão disponíveis na pasta [`JAVA/Fundamentos da Sintaxe da Linguagem Java/exercicios_fixacao/`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/exercicios_fixacao/):
 
-### 2. [Fundamentos da Sintaxe da Linguagem Java](file:///Users/gabrielfelippebaptista/Downloads/BOOTCAMP/JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/)
-- Tipos de dados, tamanhos, sufixos obrigatórios (`L`, `F`) e casting;
-- Operadores e ressalvas clássicas de concatenação e curto-circuito;
-- Projeto guiado **SmartTV** (separação de responsabilidade, métodos com parâmetros e estado do objeto);
-- Escopo de variáveis e documentação profissional com Javadoc;
-- Subpasta de exercícios práticos de fixação.
+| Exercício | Descrição | Arquivo |
+|---|---|---|
+| **01** | Cálculo de idade dinâmica a partir do ano de nascimento | [`Exercicio01Idade.java`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/exercicios_fixacao/Exercicio01Idade.java) |
+| **02** | Cálculo da área do quadrado (`lado * lado`) | [`Exercicio02AreaQuadrado.java`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/exercicios_fixacao/Exercicio02AreaQuadrado.java) |
+| **03** | Cálculo da área do retângulo (`base * altura`) | [`Exercicio03AreaRetangulo.java`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/exercicios_fixacao/Exercicio03AreaRetangulo.java) |
+| **04** | Diferença de idade absoluta entre duas pessoas com `Math.abs` | [`Exercicio04DiferencaIdade.java`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/exercicios_fixacao/Exercicio04DiferencaIdade.java) |
 
 ---
 
-## 👨‍💻 Autor
-Desenvolvido por **[Gabriel Felippe Baptista](https://github.com/GabrielF1100)**.
+## 📄 Arquivo de Reflexão
+- Consulte o [`LEIAME.md`](JAVA/Fundamentos%20da%20Sintaxe%20da%20Linguagem%20Java/LEIAME.md) para ler sobre a mentalidade e o intuito de compartilhar o aprendizado em público (*Build in Public*).
+
+---
+
+## 🛠️ Tecnologias
+- **Java 21 LTS**
+- **Git & GitHub**
+
+---
+👨‍💻 Desenvolvido por **[Gabriel Felippe Baptista](https://github.com/GabrielF1100)**.

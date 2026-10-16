@@ -16,3 +16,9 @@ Thumbs.db
 .project
 .classpath
 bin/
+
+# Ignorar outros módulos e focar apenas nos exercícios de fixação
+codigos/
+JAVA/Introdução ao Java e Seu ambiente de Desenvolvimento/
+JAVA/Fundamentos da Sintaxe da Linguagem Java/src/
+JAVA/Fundamentos da Sintaxe da Linguagem Java/README.md
